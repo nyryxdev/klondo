@@ -1,0 +1,47 @@
+name: Ошибка
+description: Что-то работает не так
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Не прикладывайте ключи ИИ, токены, лицензионный ключ, сессию Telegram и переписку с заказчиками.
+  - type: input
+    id: version
+    attributes:
+      label: Версия
+      description: Настройки → О программе
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Система
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux (AppImage)
+        - Linux (deb)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Что делали
+      placeholder: |
+        1. Открыл «Заказы»
+        2. Нажал «Подготовить отклик»
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Что получилось и что ожидали
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Скриншот или текст ошибки
+      description: Перед отправкой закройте на скриншоте личные данные.
