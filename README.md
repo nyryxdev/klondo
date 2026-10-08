@@ -6,12 +6,12 @@
 
 <a href="https://github.com/nyryxdev/klondo/releases/latest"><img src="https://img.shields.io/github/v/release/nyryxdev/klondo?style=flat-square&labelColor=131e21&color=f0b93a&label=версия" alt="последняя версия"></a>
 <a href="https://github.com/nyryxdev/klondo/releases"><img src="https://img.shields.io/github/downloads/nyryxdev/klondo/total?style=flat-square&labelColor=131e21&color=ece6d6&label=скачиваний" alt="скачивания"></a>
-<a href="https://klondo.app"><img src="https://img.shields.io/badge/сайт-klondo.app-ece6d6?style=flat-square&labelColor=131e21" alt="сайт"></a>
+<a href="https://klondo.cc"><img src="https://img.shields.io/badge/сайт-klondo.cc-ece6d6?style=flat-square&labelColor=131e21" alt="сайт"></a>
 <a href="https://t.me/klondo_app"><img src="https://img.shields.io/badge/telegram-@klondo__app-67c2a0?style=flat-square&labelColor=131e21&logo=telegram&logoColor=ece6d6" alt="Telegram"></a>
 
 </div>
 
-Здесь лежат установщики Klondo.
+Здесь лежат установщики Klondo. Исходного кода в этом репозитории нет: программа проприетарная.
 
 Klondo — приложение для фрилансера. Оно проверяет Kwork, Freelance.ru, Хабр Карьеру и Telegram, отсеивает лишнее по вашим правилам, оценивает каждый заказ от 0 до 100 и готовит черновик отклика. Работает на вашем компьютере, без регистрации.
 
@@ -62,12 +62,12 @@ sha256sum -c SHA256SUMS.txt --ignore-missing
 | Оценка и отклики ИИ | на своём ключе | на своём ключе |
 | Проекты с папкой, «Клиенты», объявления в Telegram | — | да |
 
-Купить: [klondo.app/buy](https://klondo.app/buy/). Карты РФ и СНГ или USDT через xRocket. Ключ приходит сразу, почта не нужна.
+Купить: [klondo.cc/buy](https://klondo.cc/buy/). Карты РФ и СНГ или USDT через xRocket. Ключ приходит сразу, почта не нужна.
 
 ## Данные
 
 - База и настройки хранятся только на вашем компьютере.
-- Наружу уходят запросы к площадкам и текст заказа выбранному ИИ-провайдеру. Список адресов: [klondo.app/security](https://klondo.app/security/).
+- Наружу уходят запросы к площадкам и текст заказа выбранному ИИ-провайдеру. Список адресов: [klondo.cc/security](https://klondo.cc/security/).
 - Нет телеметрии и регистрации.
 
 ## Ошибки и предложения
@@ -83,5 +83,4 @@ sha256sum -c SHA256SUMS.txt --ignore-missing
 
 ---
 
-<sub>© 2026 Klondo.
-Подробно: [LICENSE](LICENSE) и [оферта](https://klondo.app/terms/).</sub>
+<sub>© 2026 Klondo. Проприетарное ПО, не open source. Скачивать и устанавливать можно, распространять копии и обходить проверку лицензии нельзя. Подробно: [LICENSE](LICENSE) и [оферта](https://klondo.cc/terms/).</sub>
