@@ -1,23 +1,23 @@
 Klondo — лицензия на использование
-Copyright (c) 2026 Klondo. Все права защищены.
+Copyright (c) 2026 Klondo by Nyryx. Все права защищены.
 
 Программа Klondo (установщики и файлы в разделе Releases этого репозитория) — проприетарное
 ПО. Это не открытая лицензия: исходный код закрыт, исключительное право на Программу
 принадлежит правообладателю.
 
 Основной документ — Пользовательское соглашение и публичная оферта:
-https://klondo.cc/terms/
+https://klondo.app/terms/
 Если этот файл и оферта расходятся, действует оферта.
 
 1. Разрешено
-   - скачивать Программу из этого репозитория или с сайта klondo.cc;
+   - скачивать Программу из этого репозитория или с сайта klondo.app;
    - устанавливать и запускать её на своих устройствах для личных и профессиональных целей;
    - пользоваться версией Free бесплатно и без срока;
    - пользоваться версией Pro в течение оплаченного периода с ключом, выданным вам.
 
 2. Запрещено
    - распространять Программу, её изменённые копии или части, кроме ссылки на этот
-     репозиторий или klondo.cc;
+     репозиторий или klondo.app;
    - удалять, обходить или отключать проверку лицензии, создавать и распространять ключи;
    - передавать, публиковать или продавать выданный вам ключ;
    - декомпилировать и дизассемблировать Программу, кроме случаев, прямо разрешённых
@@ -33,7 +33,7 @@ https://klondo.cc/terms/
    Ключ, переданный третьим лицам, опубликованный или выданный по возвращённой оплате,
    может быть отозван.
 
-Вопросы: https://t.me/klondo_app
+Вопросы: https://t.me/klondo
 
 ---
 
@@ -46,4 +46,4 @@ the key issued to you. You may not redistribute the Program or modified copies, 
 bypass the licence check, share or sell keys, reverse-engineer the Program except where the
 law expressly allows it, or use the Klondo name, logo, illustrations or screenshots for your
 own products. The Program is provided "as is". The governing terms are the public offer at
-https://klondo.cc/terms/; if this file and the offer differ, the offer prevails.
+https://klondo.app/terms/; if this file and the offer differ, the offer prevails.

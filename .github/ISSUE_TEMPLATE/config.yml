@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Вопрос или помощь
-    url: https://t.me/klondo_app
+    url: https://t.me/klondo
     about: Новости, вопросы и поддержка в Telegram.
   - name: Оплата и ключ
-    url: https://klondo.cc/buy/
+    url: https://klondo.app/buy/
     about: Тарифы, оплата и выдача ключа.

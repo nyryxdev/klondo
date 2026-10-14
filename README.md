@@ -6,14 +6,14 @@
 
 <a href="https://github.com/nyryxdev/klondo/releases/latest"><img src="https://img.shields.io/github/v/release/nyryxdev/klondo?style=flat-square&labelColor=131e21&color=f0b93a&label=версия" alt="последняя версия"></a>
 <a href="https://github.com/nyryxdev/klondo/releases"><img src="https://img.shields.io/github/downloads/nyryxdev/klondo/total?style=flat-square&labelColor=131e21&color=ece6d6&label=скачиваний" alt="скачивания"></a>
-<a href="https://klondo.cc"><img src="https://img.shields.io/badge/сайт-klondo.cc-ece6d6?style=flat-square&labelColor=131e21" alt="сайт"></a>
-<a href="https://t.me/klondo_app"><img src="https://img.shields.io/badge/telegram-@klondo__app-67c2a0?style=flat-square&labelColor=131e21&logo=telegram&logoColor=ece6d6" alt="Telegram"></a>
+<a href="https://klondo.app"><img src="https://img.shields.io/badge/сайт-klondo.app-ece6d6?style=flat-square&labelColor=131e21" alt="сайт"></a>
+<a href="https://t.me/klondo"><img src="https://img.shields.io/badge/telegram-@klondo-67c2a0?style=flat-square&labelColor=131e21&logo=telegram&logoColor=ece6d6" alt="Telegram"></a>
 
 </div>
 
-Здесь лежат установщики Klondo. Исходного кода в этом репозитории нет: программа проприетарная.
+Здесь лежат установщики Klondo для Windows и Linux.
 
-Klondo — приложение для фрилансера. Оно проверяет Kwork, Freelance.ru, Хабр Карьеру и Telegram, отсеивает лишнее по вашим правилам, оценивает каждый заказ от 0 до 100 и готовит черновик отклика. Работает на вашем компьютере, без регистрации.
+Klondo — приложение для фрилансера. Оно следит за Kwork, FL.ru, Freelance.ru, Хабр Карьерой, Weblancer, Telegram и письмами площадок, отсеивает лишнее по вашим правилам, оценивает каждый заказ от 0 до 100 и готовит черновик отклика. Работает на вашем компьютере. Вход через Telegram: один раз, за минуту.
 
 <img src="art/assay.svg" width="100%" alt="Пример оценки заказа: 92 из 100">
 
@@ -27,7 +27,7 @@ Klondo — приложение для фрилансера. Оно провер
 | Linux x64, любой дистрибутив | `Klondo-<версия>-x86_64.AppImage` | `chmod +x Klondo-*.AppImage && ./Klondo-*.AppImage` |
 | Ubuntu, Debian, Mint, x64 | `Klondo-<версия>-amd64.deb` | `sudo apt install ./Klondo-*.deb` |
 
-macOS, Android и iOS не поддерживаются. С телефона Klondo управляется через личного Telegram-бота: новые заказы приходят туда с кнопками «Беру» и «Пропустить».
+macOS, Android и iOS не поддерживаются. С телефона Klondo работает через Telegram-бота [@klondo_bot](https://t.me/klondo_bot): горячие заказы приходят туда с кнопками.
 
 ## Проверить файл
 
@@ -43,7 +43,7 @@ Get-FileHash .\Klondo-Setup-*.exe -Algorithm SHA256
 sha256sum -c SHA256SUMS.txt --ignore-missing
 ```
 
-Если суммы не совпадают, не запускайте файл. Напишите в [@klondo_app](https://t.me/klondo_app).
+Если суммы не совпадают, не запускайте файл. Напишите в [@klondo](https://t.me/klondo).
 
 ## Первый запуск
 
@@ -55,26 +55,26 @@ sha256sum -c SHA256SUMS.txt --ignore-missing
 
 ## Тарифы
 
-| | Free | Pro |
-|---|---|---|
-| Цена | 0 ₽, без срока | 490 ₽ / мес или 3 900 ₽ / год, без автосписаний |
-| Площадки | Kwork, 2 Telegram-канала | все, включая Telegram-чаты |
-| Оценка и отклики ИИ | на своём ключе | на своём ключе |
-| Проекты с папкой, «Клиенты», объявления в Telegram | — | да |
+| | Free | Pro | Gold |
+|---|---|---|---|
+| Цена | 0 ₽, без срока | 490 ₽ / мес или 3 900 ₽ / год | 990 ₽ / мес или 7 900 ₽ / год |
+| Площадки | базовые | все, включая Telegram-чаты | всё из Pro |
+| Оценка и отклики ИИ | Klondo AI и свой ключ | больше лимит | самый большой лимит |
+| Приоритет | — | — | свежие заказы раньше, алерты с кнопками в боте |
 
-Купить: [klondo.cc/buy](https://klondo.cc/buy/). Карты РФ и СНГ или USDT через xRocket. Ключ приходит сразу, почта не нужна.
+Автосписаний нет. Купить: [klondo.app/buy](https://klondo.app/buy/). Карты РФ и СНГ или USDT. Ключ и подписка приходят сразу.
 
 ## Данные
 
 - База и настройки хранятся только на вашем компьютере.
-- Наружу уходят запросы к площадкам и текст заказа выбранному ИИ-провайдеру. Список адресов: [klondo.cc/security](https://klondo.cc/security/).
-- Нет телеметрии и регистрации.
+- Наружу уходят запросы к площадкам и текст заказа выбранному ИИ-провайдеру. Список адресов: [klondo.app/security](https://klondo.app/security/).
+- Нет телеметрии. Вход через Telegram нужен только для подписки и бота.
 
 ## Ошибки и предложения
 
 - Ошибка: [новый Issue](https://github.com/nyryxdev/klondo/issues/new). Укажите версию (Настройки → О программе), систему и шаги. Не прикладывайте ключи, токены и переписку.
-- Вопросы и новости: [@klondo_app](https://t.me/klondo_app).
-- Уязвимость: не в Issues, а личным сообщением в [@klondo_app](https://t.me/klondo_app).
+- Вопросы и новости: [@klondo](https://t.me/klondo).
+- Уязвимость: не в Issues, а личным сообщением в [@klondo](https://t.me/klondo).
 
 <p align="center">
   <img src="art/inbox.png" width="49%" alt="Раздел «Заказы»">
@@ -83,4 +83,4 @@ sha256sum -c SHA256SUMS.txt --ignore-missing
 
 ---
 
-<sub>© 2026 Klondo. Проприетарное ПО, не open source. Скачивать и устанавливать можно, распространять копии и обходить проверку лицензии нельзя. Подробно: [LICENSE](LICENSE) и [оферта](https://klondo.cc/terms/).</sub>
+<sub>Klondo by Nyryx · © 2026 · [LICENSE](LICENSE) · [оферта](https://klondo.app/terms/)</sub>
