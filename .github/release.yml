@@ -1,0 +1,8 @@
+changelog:
+  categories:
+    - title: Новое
+      labels: [feature, enhancement]
+    - title: Исправления
+      labels: [bug, fix]
+    - title: Прочее
+      labels: ["*"]
